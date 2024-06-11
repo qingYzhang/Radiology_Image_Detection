@@ -13,7 +13,7 @@ classes_path    = 'model_data/cls_classes.txt'
 #-------------------------------------------------------#
 #   datasets_path   指向数据集所在的路径
 #-------------------------------------------------------#
-datasets_path   = 'datasets'
+datasets_path   = '../datasets'
 
 sets            = ["train", "test"]
 classes, _      = get_classes(classes_path)
