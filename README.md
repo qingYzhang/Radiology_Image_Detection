@@ -23,6 +23,6 @@ TO TRAIN:
             |-890.jpg
         |-...
 ```
-3. run txt_annotation.py to generate cls_train.txt，adjust the classes as needed.
-4. adjust the classes in the ./model_data/cls_classes.txt.  
-5. run train.py.
+1. run txt_annotation.py to generate cls_train.txt，adjust the classes as needed.
+2. adjust the classes in the ./model_data/cls_classes.txt.  
+3. run train.py.
