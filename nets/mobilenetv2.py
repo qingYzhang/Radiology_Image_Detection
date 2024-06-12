@@ -1,5 +1,5 @@
 from torch import nn
-from torchvision.models.utils import load_state_dict_from_url
+from torchvision._internally_replaced_utils import load_state_dict_from_url
 
 
 __all__ = ['MobileNetV2', 'mobilenetv2']
